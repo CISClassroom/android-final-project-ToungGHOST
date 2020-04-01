@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="th.ac.kku.cis.mobileapp.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_namee"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".show"
+            android:label="@string/show"
+           ></activity>
+
+        <activity android:name=".Main_Page"
+            android:theme="@style/LogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".add_list"
+            android:label="@string/add"
+           />
+
+        <activity android:name=".Main5Activity" />
+
+        <activity android:name=".Main4Activity"
+            android:label="@string/list"/>
+
+        <activity android:name=".Main3Activity"
+            android:label="@string/main"/>
+
+        <activity android:name=".Main2Activity"
+            android:label="@string/add_name"
+            />
+
+        <activity android:name=".MainActivity"
+
+            android:theme="@style/LogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

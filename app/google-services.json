@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "514068265354",
+    "firebase_url": "https://my-application-e11b8.firebaseio.com",
+    "project_id": "my-application-e11b8",
+    "storage_bucket": "my-application-e11b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514068265354:android:ca52cb001830cbc3637073",
+        "android_client_info": {
+          "package_name": "th.ac.kku.cis.mobileapp.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514068265354-uk6vpg3joe8uq3tmpqb3hql2cjs0lv6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.ac.kku.cis.mobileapp.myapplication",
+            "certificate_hash": "a97a6dfa8ef35ce183e85c7de06ccdd515ba5c1f"
+          }
+        },
+        {
+          "client_id": "514068265354-et02gunp9cad329o9tbl7p0r3bl08mjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_767aWRD3EArTteFwtIuh-b_ssTz8i-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514068265354-et02gunp9cad329o9tbl7p0r3bl08mjh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

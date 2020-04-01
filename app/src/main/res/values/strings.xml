@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">เข้าสู่ระบบ</string>
+    <string name="app_namee">Post</string>
+    <string name="add_name">ลงทะเบียน</string>
+    <string name="add">เพิ่มโพสต์</string>
+    <string name="main">หน้าหลัก</string>
+    <string name="show">ข้อความ</string>
+    <string name="list">โพสต์ต่างๆ</string>
+
+
+</resources>
