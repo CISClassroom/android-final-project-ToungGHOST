@@ -45,7 +45,16 @@
 <!--            android:textStyle="bold"-->
 <!--            android:layout_marginRight="20dp"-->
 <!--            android:layout_marginLeft="20dp"/>-->
-
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="t"
+            android:textSize="30dp"
+            android:textColor="@color/bg"/>
         <TextView
             android:id="@+id/textView14"
             android:layout_width="match_parent"
@@ -54,7 +63,7 @@
             android:layout_marginLeft="5dp"
             android:text="ข้อความ :"
             android:textSize="20dp"
-            android:textColor="@color/white"/>
+            android:textColor="@color/bg1"/>
 
         <TextView
             android:id="@+id/textView21"
@@ -82,16 +91,27 @@
             android:textSize="10dp"
             android:layout_marginRight="20dp"
             android:textStyle="bold"
-            android:textColor="@color/white"/>
+            android:textColor="@color/bg1"/>
         <TextView
             android:id="@+id/tv_user"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:textColor="@color/white"
+            android:textColor="@color/btnl"
             android:layout_weight="0"
             android:gravity="right"
             android:text="textView"
+            android:textSize="18dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="ความคิดเห็น"
             android:textSize="18dp"
             android:layout_marginRight="5dp"
             android:textStyle="bold" />

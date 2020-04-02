@@ -38,7 +38,7 @@ class show : AppCompatActivity() {
         var userp = getIntent().getStringExtra("userp")
 
 
-//        tv_name.text = name
+        tv_name.text = name
 //            tv_id.text = name
             textView21.text = list
             tv_datep.text = date
