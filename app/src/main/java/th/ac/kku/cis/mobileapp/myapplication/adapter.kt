@@ -50,3 +50,46 @@ class itemadapter(context: Context, toDoItemList: MutableList<posts>) : BaseAdap
         val label: TextView = row!!.findViewById<TextView>(R.id.tv_item_text) as TextView
     }
 }
+class itemadapter_cm(context: Context, toDoItemList: MutableList<comment>) : BaseAdapter() {
+
+    private val mInflater: LayoutInflater = LayoutInflater.from(context)
+    private var itemList = toDoItemList
+
+
+    override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
+        // create object from view
+        val name: String = itemList.get(position).commentp as String
+        val view: View
+        val vh: ListRowHolder
+
+        // get list view
+        if (convertView == null) {
+            view = mInflater.inflate(R.layout.list_comment, parent, false)
+            vh = ListRowHolder(view)
+            view.tag = vh
+        } else {
+            view = convertView
+            vh = view.tag as ListRowHolder
+        }
+
+        vh.label.text =  name
+
+        return view
+    }
+
+    override fun getItem(index: Int): Any {
+        return itemList.get(index)
+    }
+
+    override fun getItemId(index: Int): Long {
+        return index.toLong()
+    }
+
+    override fun getCount(): Int {
+        return itemList.size
+    }
+
+    private class ListRowHolder(row: View?) {
+        val label: TextView = row!!.findViewById<TextView>(R.id.tv_comment) as TextView
+    }
+}

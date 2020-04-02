@@ -31,7 +31,7 @@ class Main4Activity : AppCompatActivity() {
         listview.setOnItemClickListener { parent, view, position, id ->
             val intent = Intent(this, show::class.java)
             val selectedItem = parent.getItemAtPosition(position) as posts
-//            intent.putExtra("namep", selectedItem.namep.toString())
+            intent.putExtra("namep", selectedItem.namep.toString())
             intent.putExtra("listp", selectedItem.listp.toString())
             intent.putExtra("datep", selectedItem.datep.toString())
             intent.putExtra("userp", selectedItem.userp.toString())
@@ -72,6 +72,7 @@ class Main4Activity : AppCompatActivity() {
                 todoItem.listp = map.get("listp") as String
                 todoItem.datep = map.get("datep") as String
                 todoItem.userp = map.get("userp") as String
+                todoItem.objectId = map.get("objectId") as String
                 topost!!.add(todoItem);
 
             }
