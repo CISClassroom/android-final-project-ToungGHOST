@@ -11,10 +11,10 @@ class Main_Page : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main__page)
 
-
-        button8.setOnClickListener {
-            startActivity(Intent(this, Main4Activity::class.java))
-        }
+//
+//        button8.setOnClickListener {
+//            startActivity(Intent(this, Main4Activity::class.java))
+//        }
         button7.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
         }
